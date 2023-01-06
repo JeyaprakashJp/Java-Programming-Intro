@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML/CSS COLORS</title>
+
+	<style>
+		.ColorBox {
+			width:150px;
+			float:left;
+			padding:25px 25px 25px 25px;
+			text-align:center;
+			border:2px solid black;
+			vertical-align:middle;
+		}
+	</style>
+
+	<script>
+		function changeDivColor(){
+			var allDivs = document.getElementsByClassName("ColorBox");
+
+			for(var i=0; i<allDivs.length; i++){
+				if ((allDivs[i].innerHTML == "Black") || (allDivs[i].innerHTML == "Navy") || (allDivs[i].innerHTML == "MidnightBlue") || (allDivs[i].innerHTML == "DarkBlue")){
+					allDivs[i].style.color = "white";
+				}
+
+				allDivs[i].style.background = allDivs[i].innerHTML;
+			}
+		}
+		
+	</script>
+	
+</head>
+<body onload="changeDivColor()">
+	<h1>HTML/CSS Colors</h1>
+
+	<p>Modern browsers support the following color names</p>
+
+	<p>Example: <span style="color:DodgerBlue">This color is applied to the SPAN tag through the STYLE attribute.</span></p>
+	<p><em>Take a look at the page source to see the style applied.</em></p>
+
+	<div class="ColorBox">AliceBlue</div>
+	<div class="ColorBox">AntiqueWhite</div>
+	<div class="ColorBox">Aqua</div>
+	<div class="ColorBox">Aquamarine</div>
+	<div class="ColorBox">Azure</div>
+	<div class="ColorBox">Beige</div>
+	<div class="ColorBox">Bisque</div>
+	<div class="ColorBox">Black</div>
+
+	<div class="ColorBox">BlanchedAlmond</div>
+	<div class="ColorBox">Blue</div>
+	<div class="ColorBox">BlueViolet</div>
+	<div class="ColorBox">Brown</div>
+	<div class="ColorBox">BurlyWood</div>
+	<div class="ColorBox">CadetBlue</div>
+	<div class="ColorBox">Charteuse</div>
+	<div class="ColorBox">Chocolate</div>
+
+	<div class="ColorBox">Coral</div>
+	<div class="ColorBox">CornflowerBlue</div>
+	<div class="ColorBox">Cornsilk</div>
+	<div class="ColorBox">Aquamarine</div>
+	<div class="ColorBox">Crimson</div>
+	<div class="ColorBox">Cyan</div>
+	<div class="ColorBox">DarkBlue</div>
+	<div class="ColorBox">DarkCyan</div>
+
+	<div class="ColorBox">DarkGoldenRod</div>
+	<div class="ColorBox">DarkGrey</div>
+	<div class="ColorBox">DarkGreen</div>
+	<div class="ColorBox">DarkKhaki</div>
+	<div class="ColorBox">DarkMagenta</div>
+	<div class="ColorBox">DarkOliveGreen</div>
+	<div class="ColorBox">DarkOrange</div>
+	<div class="ColorBox">DarkOrchid</div>
+
+	<div class="ColorBox">DarkRed</div>
+	<div class="ColorBox">DarkSalmon</div>
+	<div class="ColorBox">DarkSeaGreen</div>
+	<div class="ColorBox">DarkSlateBlue</div>
+	<div class="ColorBox">DarkSlateGrey</div>
+	<div class="ColorBox">DarkTurquoise</div>
+	<div class="ColorBox">DarkViolet</div>
+	<div class="ColorBox">DeepPink</div>
+
+	<div class="ColorBox">DeepSkyBlue</div>
+	<div class="ColorBox">DimGrey</div>
+	<div class="ColorBox">DodgerBlue</div>
+	<div class="ColorBox">FireBrick</div>
+	<div class="ColorBox">FloralWhite</div>
+	<div class="ColorBox">ForestGreen</div>
+	<div class="ColorBox">Fuchsia</div>
+	<div class="ColorBox">Gainsboro</div>
+
+	<div class="ColorBox">GhostWhite</div>
+	<div class="ColorBox">Gold</div>
+	<div class="ColorBox">GoldenRod</div>
+	<div class="ColorBox">Grey</div>
+	<div class="ColorBox">Green</div>
+	<div class="ColorBox">GreenYellow</div>
+	<div class="ColorBox">HoneyDew</div>
+	<div class="ColorBox">HotPink</div>
+
+	<div class="ColorBox">IndianRed</div>
+	<div class="ColorBox">Indigo</div>
+	<div class="ColorBox">Ivory</div>
+	<div class="ColorBox">Khaki</div>
+	<div class="ColorBox">Lavender</div>
+	<div class="ColorBox">LavenderBlush</div>
+	<div class="ColorBox">LawnGreen</div>
+	<div class="ColorBox">LemonChiffon</div>
+
+	<div class="ColorBox">LightBlue</div>
+	<div class="ColorBox">LightCoral</div>
+	<div class="ColorBox">LightCyan</div>
+	<div class="ColorBox">LightGoldenRodYellow</div>
+	<div class="ColorBox">LightGrey</div>
+	<div class="ColorBox">LightGreen</div>
+	<div class="ColorBox">LightPink</div>
+	<div class="ColorBox">LightSalmon</div>
+
+	<div class="ColorBox">LightSeaGreen</div>
+	<div class="ColorBox">LightSkyBlue</div>
+	<div class="ColorBox">LightSlateGrey</div>
+	<div class="ColorBox">LightSteelBlue</div>
+	<div class="ColorBox">LightYellow</div>
+	<div class="ColorBox">Lime</div>
+	<div class="ColorBox">LimeGreen</div>
+	<div class="ColorBox">Linen</div>
+
+	<div class="ColorBox">Magenta</div>
+	<div class="ColorBox">Maroon</div>
+	<div class="ColorBox">MediumAquaMarine</div>
+	<div class="ColorBox">MediumBlue</div>
+	<div class="ColorBox">MediumOrchid</div>
+	<div class="ColorBox">MediumPurple</div>
+	<div class="ColorBox">MediumSeaGreen</div>
+	<div class="ColorBox">MediumSlateBlue</div>
+	
+	<div class="ColorBox">MediumSpringGreen</div>
+	<div class="ColorBox">MediumTurquoise</div>
+	<div class="ColorBox">MediumVioletRed</div>
+	<div class="ColorBox">MidnightBlue</div>
+	<div class="ColorBox">MintCream</div>
+	<div class="ColorBox">MistyRose</div>
+	<div class="ColorBox">Moccasin</div>
+	<div class="ColorBox">NavajoWhite</div>
+
+	<div class="ColorBox">Navy</div>
+	<div class="ColorBox">OldLace</div>
+	<div class="ColorBox">Olive</div>
+	<div class="ColorBox">OliveDrab</div>
+	<div class="ColorBox">Orange</div>
+	<div class="ColorBox">OrangeRed</div>
+	<div class="ColorBox">Orchid</div>
+	<div class="ColorBox">PaleGoldenRod</div>
+
+	<div class="ColorBox">PaleGreen</div>
+	<div class="ColorBox">PaleTurquoise</div>
+	<div class="ColorBox">PaleVioletRed</div>
+	<div class="ColorBox">PapayaWhip</div>
+	<div class="ColorBox">PeachPuff</div>
+	<div class="ColorBox">Peru</div>
+	<div class="ColorBox">Pink</div>
+	<div class="ColorBox">Plum</div>
+
+	<div class="ColorBox">PowderBlue</div>
+	<div class="ColorBox">Purple</div>
+	<div class="ColorBox">RebeccaPurple</div>
+	<div class="ColorBox">Red</div>
+	<div class="ColorBox">RosyBrown</div>
+	<div class="ColorBox">RoyalBlue</div>
+	<div class="ColorBox">SaddleBrown</div>
+	<div class="ColorBox">Salmon</div>
+
+	<div class="ColorBox">SandyBrown</div>
+	<div class="ColorBox">SeaGreen</div>
+	<div class="ColorBox">SeaSheel</div>
+	<div class="ColorBox">Sienna</div>
+	<div class="ColorBox">Silver</div>
+	<div class="ColorBox">SkyBlue</div>
+	<div class="ColorBox">SlateBlue</div>
+	<div class="ColorBox">SlateGrey</div>
+
+	<div class="ColorBox">Snow</div>
+	<div class="ColorBox">SpringGreen</div>
+	<div class="ColorBox">SteelBlue</div>
+	<div class="ColorBox">Tan</div>
+	<div class="ColorBox">Teal</div>
+	<div class="ColorBox">Thistle</div>
+	<div class="ColorBox">Tomato</div>
+	<div class="ColorBox">Turquoise</div>
+
+	<div class="ColorBox">Violet</div>
+	<div class="ColorBox">Wheat</div>
+	<div class="ColorBox">White</div>
+	<div class="ColorBox">WhiteSmoke</div>
+	<div class="ColorBox">Yellow</div>
+	<div class="ColorBox">YellowGreen</div>
+
+</body>
+</html>
